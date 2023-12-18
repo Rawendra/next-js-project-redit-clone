@@ -37,4 +37,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Steps for projects
 
+STEPS FOR NEXT_UI
 npm install @nextui-org/react framer-motion
+
+
+STEPS FOR PRISMA SETUP
+npm install prisma
+npx prisma init --datasource-provider sqlite
+create schema
+npx prisma migrate dev
