@@ -46,3 +46,10 @@ npm install prisma
 npx prisma init --datasource-provider sqlite
 create schema
 npx prisma migrate dev
+
+STEPS FOR AUTH NODE PACKAGES
+"@auth/core": "0.18.1",
+    "@auth/prisma-adapter": "1.0.6",
+        "next-auth": "5.0.0-beta.3",
+
+npm i --save-exact   @auth/core@0.18.1  @auth/prisma-adapter@1.0.6 next-auth@5.0.0-beta.3
