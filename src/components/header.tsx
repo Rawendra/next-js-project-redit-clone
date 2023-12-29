@@ -11,11 +11,10 @@ import {
   PopoverTrigger,
   PopoverContent,
 } from "@nextui-org/react";
-import { auth } from '@/auth';
-import { signIn, signOut } from "@/actions";
+
 import AuthHeader from '@/components/AuthHeader'
 export default async function Header() {
-  const session = await auth();
+ 
   
   return (
     <Navbar className="shadow mb-6">
